@@ -18,7 +18,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          'Vazir-matn',
+          'Inter',
           'ui-sans-serif',
           'system-ui',
           '-apple-system',
@@ -71,6 +71,7 @@ module.exports = {
     require("@tailwindcss/typography"),
     require("@tailwindcss/container-queries"),
     require("@tailwindcss/aspect-ratio"),
-    require("tailgrids/plugin")
+    require("tailgrids/plugin"),
+    require("tailwindcss-animate"),
   ],
 };

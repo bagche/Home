@@ -1,13 +1,22 @@
+<script lang="ts" setup>
+import { useDark, useToggle } from "@vueuse/core";
+
+const isDark = useDark();
+const toggleDark = useToggle(isDark);
+</script>
 <template>
-  <body>
+  <main class="relative">
     <!-- ====== Navbar Section Start -->
     <div
-      class="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent"
+      class="ud-header fixed bg-primary left-0 top-0 z-40 flex w-full items-center"
     >
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
           <div class="w-60 max-w-full px-4">
-            <a href="index.html" class="text-2xl font-bold block w-full py-5">
+            <a
+              href="index.html"
+              class="text-2xl font-bold block w-full py-5 text-white"
+            >
               Bagche.App
             </a>
             <!-- <a href="index.html" class="navbar-logo block w-full py-5">
@@ -83,19 +92,16 @@
                 </ul>
               </nav>
             </div>
-            <div class="flex items-center justify-end pr-16 lg:pr-0 gap-4">
+            <div
+              @click="toggleDark()"
+              class="flex items-center justify-end pr-16 lg:pr-0 gap-4"
+            >
               <label
                 for="themeSwitcher"
                 class="inline-flex cursor-pointer items-center"
                 aria-label="themeSwitcher"
                 name="themeSwitcher"
               >
-                <input
-                  type="checkbox"
-                  name="themeSwitcher"
-                  id="themeSwitcher"
-                  class="sr-only"
-                />
                 <span class="block text-white dark:hidden">
                   <svg
                     class="fill-current"
@@ -761,5 +767,5 @@
       ></span>
     </a>
     <!-- ====== Back To Top End -->
-  </body>
+  </main>
 </template>
