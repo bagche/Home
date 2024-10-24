@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@nuxt/ui": "^2.18.7",
-    "sass": "^1.80.4"
+    "sass": "^1.80.4",
+    "wrangler": "^3.83.0"
   }
 }

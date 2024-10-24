@@ -12,10 +12,15 @@ export default defineNuxtConfig({
       },
     },
     // plugins: [viteCompression({ algorithm: "brotliCompress" })],
-    build: {
-      sourcemap: false,
-      minify: true,
-      rollupOptions: { treeshake: true },
-    },
+    // build: {
+    //   sourcemap: false,
+    //   minify: true,
+    //   rollupOptions: { treeshake: true },
+    // },
+  },
+  nitro: {
+    preset: "cloudflare-pages",
+    compressPublicAssets: true,
+    minify: true,
   },
 });
