@@ -57,18 +57,20 @@ module.exports = {
       },
       colors: {
         ultramarine: {
-          50: '#EFFDF5',
-          100: '#D9FBE8',
-          200: '#B3F5D1',
-          300: '#75EDAE',
-          400: '#00DC82',
-          500: '#4166f5',
-          600: '#00A155',
-          700: '#007F45',
-          800: '#016538',
-          900: '#0A5331',
-          950: '#052e16'
+          50: '#e3e1f9',    // Very light ultramarine
+          100: '#c7c2f3',    // Light ultramarine
+          200: '#8f8be8',    // Lighter mid-tone ultramarine
+          300: '#5754dd',    // Mid-tone, balanced for accents
+          400: '#120A8F',    // Rich and vibrant ultramarine
+          500: '#120A8F',    // Main ultramarine standard
+          600: '#10087f',    // Slightly darker ultramarine
+          700: '#0d066b',    // Dark ultramarine, for strong contrast
+          800: '#0a0557',    // Very dark ultramarine, for deep contrast
+          900: '#070341',    // Darkest shade, close to black
+          950: '#040220'     // Near black, slight ultramarine tint
         }
+
+
       },
     },
   },

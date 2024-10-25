@@ -13,19 +13,9 @@ const toggleDark = useToggle(isDark);
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
           <div class="w-60 max-w-full px-4">
-            <a
-              href="index.html"
-              class="text-2xl font-bold block w-full py-5 text-white"
-            >
+            <a class="text-2xl font-bold block w-full py-5 text-white">
               Bagche.App
             </a>
-            <!-- <a href="index.html" class="navbar-logo block w-full py-5">
-              <img
-                src="~/assets/images/logo/logo-white.svg"
-                alt="logo"
-                class="header-logo w-full"
-              />
-            </a> -->
           </div>
           <div class="flex w-full items-center justify-between px-4">
             <div>
@@ -83,7 +73,7 @@ const toggleDark = useToggle(isDark);
                   </li>
                   <li class="group relative">
                     <a
-                      href="blog-grids.html"
+                      href="#blog"
                       class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Blog
@@ -164,7 +154,6 @@ const toggleDark = useToggle(isDark);
               </label>
               <div class="hidden sm:flex mr-20">
                 <a
-                  href="signup.html"
                   class="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
                 >
                   Sign In/Up
@@ -186,10 +175,7 @@ const toggleDark = useToggle(isDark);
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div class="mb-10 w-full">
-              <a
-                href="javascript:void(0)"
-                class="mb-6 inline-block max-w-[160px]"
-              >
+              <a class="mb-6 inline-block max-w-[160px]">
                 <img
                   src="~/assets/images/logo/logo-white.svg"
                   alt="logo"
@@ -201,10 +187,7 @@ const toggleDark = useToggle(isDark);
                 technology.
               </p>
               <div class="-mx-3 flex items-center">
-                <a
-                  href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
-                >
+                <a class="px-3 text-gray-7 hover:text-white">
                   <svg
                     width="22"
                     height="22"
@@ -218,10 +201,7 @@ const toggleDark = useToggle(isDark);
                     />
                   </svg>
                 </a>
-                <a
-                  href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
-                >
+                <a class="px-3 text-gray-7 hover:text-white">
                   <svg
                     width="22"
                     height="22"
@@ -235,10 +215,7 @@ const toggleDark = useToggle(isDark);
                     />
                   </svg>
                 </a>
-                <a
-                  href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
-                >
+                <a class="px-3 text-gray-7 hover:text-white">
                   <svg
                     width="22"
                     height="22"
@@ -258,10 +235,7 @@ const toggleDark = useToggle(isDark);
                     />
                   </svg>
                 </a>
-                <a
-                  href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
-                >
+                <a class="px-3 text-gray-7 hover:text-white">
                   <svg
                     width="22"
                     height="22"
@@ -284,7 +258,6 @@ const toggleDark = useToggle(isDark);
               <ul>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Home
@@ -292,7 +265,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Features
@@ -300,7 +272,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     About
@@ -308,7 +279,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Testimonial
@@ -323,7 +293,6 @@ const toggleDark = useToggle(isDark);
               <ul>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     How it works
@@ -331,7 +300,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Privacy policy
@@ -339,7 +307,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Terms of Service
@@ -347,7 +314,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Refund policy
@@ -364,7 +330,6 @@ const toggleDark = useToggle(isDark);
               <ul>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     LineIcons
@@ -372,7 +337,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Ecommerce HTML
@@ -380,7 +344,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     TailAdmin
@@ -388,7 +351,6 @@ const toggleDark = useToggle(isDark);
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
                     class="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     PlainAdmin
@@ -401,10 +363,7 @@ const toggleDark = useToggle(isDark);
             <div class="mb-10 w-full">
               <h4 class="mb-9 text-lg font-semibold text-white">Latest blog</h4>
               <div class="flex flex-col gap-8">
-                <a
-                  href="blog-details.html"
-                  class="group flex items-center gap-[22px]"
-                >
+                <a class="group flex items-center gap-[22px]">
                   <div class="overflow-hidden rounded">
                     <img
                       src="~/assets/images/blog/blog-footer-01.jpg"
@@ -417,10 +376,7 @@ const toggleDark = useToggle(isDark);
                     I think really important to design with...
                   </span>
                 </a>
-                <a
-                  href="blog-details.html"
-                  class="group flex items-center gap-[22px]"
-                >
+                <a class="group flex items-center gap-[22px]">
                   <div class="overflow-hidden rounded">
                     <img
                       src="~/assets/images/blog/blog-footer-02.jpg"
@@ -450,19 +406,16 @@ const toggleDark = useToggle(isDark);
                   class="-mx-3 flex items-center justify-center md:justify-start"
                 >
                   <a
-                    href="javascript:void(0)"
                     class="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
                     Privacy policy
                   </a>
                   <a
-                    href="javascript:void(0)"
                     class="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
                     Legal notice
                   </a>
                   <a
-                    href="javascript:void(0)"
                     class="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
                     Terms of service
@@ -475,7 +428,6 @@ const toggleDark = useToggle(isDark);
                 <p class="text-base text-gray-7">
                   Designed and Developed by
                   <a
-                    href="https://tailgrids.com"
                     rel="nofollow noopner"
                     target="_blank"
                     class="text-gray-1 hover:underline"
@@ -759,7 +711,6 @@ const toggleDark = useToggle(isDark);
 
     <!-- ====== Back To Top Start -->
     <a
-      href="javascript:void(0)"
       class="back-to-top fixed bottom-8 left-auto right-8 z-[999] hidden h-10 w-10 items-center justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-dark"
     >
       <span

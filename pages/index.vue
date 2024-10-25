@@ -1,14 +1,3 @@
-<script setup lang="ts">
-const items = [
-  "https://picsum.photos/640/640?random=1",
-  "https://picsum.photos/640/640?random=2",
-  "https://picsum.photos/640/640?random=3",
-  "https://picsum.photos/640/640?random=4",
-  "https://picsum.photos/640/640?random=5",
-  "https://picsum.photos/640/640?random=6",
-];
-</script>
-
 <template>
   <main>
     <!-- ====== Hero Section Start -->
@@ -16,7 +5,7 @@ const items = [
       id="home"
       class="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
-      <div class="container">
+      <div class=" ">
         <div class="-mx-4 flex flex-wrap items-center">
           <div class="w-full px-4">
             <div

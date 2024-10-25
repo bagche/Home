@@ -7,7 +7,7 @@ useHead({
 </script>
 <template>
   <Html :class="isDark ? 'dark' : 'light'">
-    <Body class="dark:bg-slate-800">
+    <Body class="">
       <NuxtLayout>
         <!-- <SeoKit /> -->
         <NuxtLoadingIndicator />
