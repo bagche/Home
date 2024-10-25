@@ -69,8 +69,6 @@ module.exports = {
           900: '#070341',    // Darkest shade, close to black
           950: '#040220'     // Near black, slight ultramarine tint
         }
-
-
       },
     },
   },
