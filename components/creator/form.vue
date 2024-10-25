@@ -44,6 +44,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <span class="text-center mx-2"> Build </span>
       </UButton>
     </label>
-    <p class="text-white mt-5 text-xl">1- Creating New one</p>
+    <p class="text-white mt-5 text-md">Creating New one ...</p>
   </UForm>
 </template>
