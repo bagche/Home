@@ -18,14 +18,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 }
 </script>
 <template>
-  <UForm
-    :schema="schema"
-    :state="state"
-    class="mb-10 mt-10 text-white bg-primary dark:bg-white dark:text-primary"
-    @submit="onSubmit"
-  >
+  <UForm :schema="schema" :state="state" class="mb-10 mt-10" @submit="onSubmit">
     <label
-      class="mx-auto mt-8 relative min-w-sm max-w-2xl flex flex-col md:flex-row items-center justify-center py-2 px-2 rounded-2xl gap-2 border-2 border-primary"
+      class="mx-auto mt-8 relative min-w-sm max-w-2xl flex flex-col md:flex-row items-center justify-center py-2 px-2 rounded-2xl gap-2 border-2 border-primary dark:border-white"
       for="search-bar"
     >
       <UInput
@@ -45,7 +40,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
       <UButton
         type="submit"
         color="black"
-        class="px-6 text-center text-md py-3 rounded-xl transition-all dark:bg-primary dark:text-white"
+        class="px-6 text-center text-md py-3 rounded-xl transition-all bg-primary dark:bg-none"
       >
         <span class="text-center mx-2"> Build </span>
       </UButton>

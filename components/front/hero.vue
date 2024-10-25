@@ -1,7 +1,7 @@
 <template>
   <section
     id="home"
-    class="relative overflow-hidden text-white bg-primary dark:bg-white dark:text-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
+    class="relative overflow-hidden dark:text-white bg-white dark:bg-primary text-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
   >
     <div class="-mx-4 flex flex-wrap items-center">
       <div class="w-full px-4">
@@ -75,7 +75,7 @@
             </NuxtLink>
           </div>
           <div
-            class="w-full mx-4 border border-primary rounded-xl transition-all border-[.2rem]"
+            class="w-full mx-4 border border-primary rounded-xl transition-all border-[.2rem] border-b-0"
           >
             <div
               class="wow fadeInUp relative z-10 mx-auto max-w-[845px]"

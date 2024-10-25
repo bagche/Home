@@ -8,7 +8,7 @@ const toggleDark = useToggle(isDark);
   <main class=" ">
     <!-- ====== Navbar Section Start -->
     <div
-      class="ud-header fixed text-white bg-primary dark:bg-white dark:text-primary left-0 top-0 z-40 flex w-full items-center"
+      class="ud-header fixed dark:text-white dark:bg-primary bg-white text-primary left-0 top-0 z-40 flex w-full items-center"
     >
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
