@@ -34,46 +34,8 @@ const items = [
                 Multidisciplinary Web Template Built with Your Favourite
                 Technology - HTML Bootstrap, Tailwind and React NextJS.
               </p>
-              <ul
-                class="mb-10 flex flex-wrap items-center justify-center gap-5"
-              >
-                <li>
-                  <a
-                    href="https://links.tailgrids.com/play-download"
-                    class="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color"
-                  >
-                    Download Now
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/tailgrids/play-tailwind"
-                    target="_blank"
-                    class="flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
-                  >
-                    <svg
-                      class="fill-current"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clip-path="url(#clip0_2005_10818)">
-                        <path
-                          d="M12 0.674805C5.625 0.674805 0.375 5.8498 0.375 12.2998C0.375 17.3998 3.7125 21.7498 8.3625 23.3248C8.9625 23.4373 9.15 23.0623 9.15 22.7998C9.15 22.5373 9.15 21.7873 9.1125 20.7748C5.8875 21.5248 5.2125 19.1998 5.2125 19.1998C4.6875 17.8873 3.9 17.5123 3.9 17.5123C2.85 16.7623 3.9375 16.7623 3.9375 16.7623C5.1 16.7998 5.7375 17.9623 5.7375 17.9623C6.75 19.7623 8.475 19.2373 9.1125 18.8998C9.225 18.1498 9.525 17.6248 9.8625 17.3248C7.3125 17.0623 4.575 16.0498 4.575 11.6248C4.575 10.3498 5.0625 9.3373 5.775 8.5498C5.6625 8.2873 5.25 7.0873 5.8875 5.4748C5.8875 5.4748 6.9 5.1748 9.1125 6.6748C10.05 6.4123 11.025 6.2623 12.0375 6.2623C13.05 6.2623 14.0625 6.3748 14.9625 6.6748C17.175 5.2123 18.15 5.4748 18.15 5.4748C18.7875 7.0498 18.4125 8.2873 18.2625 8.5498C19.0125 9.3373 19.4625 10.3873 19.4625 11.6248C19.4625 16.0498 16.725 17.0623 14.175 17.3248C14.5875 17.6998 14.9625 18.4498 14.9625 19.4998C14.9625 21.0748 14.925 22.3123 14.925 22.6873C14.925 22.9873 15.15 23.3248 15.7125 23.2123C20.2875 21.6748 23.625 17.3623 23.625 12.2248C23.5875 5.8498 18.375 0.674805 12 0.674805Z"
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_2005_10818">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    Star on Github
-                  </a>
-                </li>
-              </ul>
+              <CreatorForm />
+
               <div>
                 <p class="mb-4 text-center text-base font-medium text-white">
                   Built with latest technology
@@ -83,7 +45,6 @@ const items = [
                   data-wow-delay=".3s"
                 >
                   <a
-                    href="https://github.com/uideck/play-bootstrap/"
                     class="text-white/60 duration-300 ease-in-out hover:text-white"
                     target="_blank"
                   >
@@ -119,7 +80,6 @@ const items = [
                   </a>
 
                   <a
-                    href="https://github.com/TailGrids/play-tailwind/"
                     class="text-white/60 duration-300 ease-in-out hover:text-white"
                     target="_blank"
                   >
@@ -153,7 +113,6 @@ const items = [
                   </a>
 
                   <a
-                    href="https://github.com/NextJSTemplates/play-nextjs"
                     class="text-white/60 duration-300 ease-in-out hover:text-white"
                     target="_blank"
                   >
@@ -175,7 +134,6 @@ const items = [
                   </a>
 
                   <a
-                    href="https://github.com/TailGrids/play-astro/"
                     class="text-white/60 duration-300 ease-in-out hover:text-white"
                     target="_blank"
                   >
@@ -208,7 +166,6 @@ const items = [
                   </a>
 
                   <a
-                    href="https://github.com/NextJSTemplates/play-nextjs"
                     class="text-white/60 duration-300 ease-in-out hover:text-white"
                     target="_blank"
                   >
@@ -1439,7 +1396,6 @@ const items = [
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
                 Learn More
@@ -1474,7 +1430,6 @@ const items = [
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
                 Learn More
@@ -1541,7 +1496,6 @@ const items = [
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
                 Learn More
@@ -1588,7 +1542,6 @@ const items = [
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
                 Learn More
@@ -1630,7 +1583,6 @@ const items = [
                 </p>
 
                 <a
-                  href="javascript:void(0)"
                   class="inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark"
                 >
                   Know More
@@ -1823,7 +1775,6 @@ const items = [
                   majority have suffered in some form.
                 </p>
                 <a
-                  href="javascript:void(0)"
                   class="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                 >
                   Start using Play
@@ -1966,7 +1917,6 @@ const items = [
                 </div>
               </div>
               <a
-                href="javascript:void(0)"
                 class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
               >
                 Purchase Now
@@ -2018,7 +1968,6 @@ const items = [
                 </div>
               </div>
               <a
-                href="javascript:void(0)"
                 class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
               >
                 Purchase Now
@@ -2065,7 +2014,6 @@ const items = [
                 </div>
               </div>
               <a
-                href="javascript:void(0)"
                 class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
               >
                 Purchase Now
@@ -2861,7 +2809,7 @@ const items = [
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="wow fadeInUp group mb-10" data-wow-delay=".1s">
               <div class="mb-8 overflow-hidden rounded-[5px]">
-                <a href="blog-details.html" class="block">
+                <a class="block">
                   <img
                     src="~/assets/images/blog/blog-01.jpg"
                     alt="image"
@@ -2877,7 +2825,6 @@ const items = [
                 </span>
                 <h3>
                   <a
-                    href="javascript:void(0)"
                     class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
                   >
                     Meet AutoManage, the best AI management tools
@@ -2895,7 +2842,7 @@ const items = [
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="wow fadeInUp group mb-10" data-wow-delay=".15s">
               <div class="mb-8 overflow-hidden rounded-[5px]">
-                <a href="blog-details.html" class="block">
+                <a class="block">
                   <img
                     src="~/assets/images/blog/blog-02.jpg"
                     alt="image"
@@ -2911,7 +2858,6 @@ const items = [
                 </span>
                 <h3>
                   <a
-                    href="javascript:void(0)"
                     class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
                   >
                     How to earn more money as a wellness coach
@@ -2929,7 +2875,7 @@ const items = [
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="wow fadeInUp group mb-10" data-wow-delay=".2s">
               <div class="mb-8 overflow-hidden rounded-[5px]">
-                <a href="blog-details.html" class="block">
+                <a class="block">
                   <img
                     src="~/assets/images/blog/blog-03.jpg"
                     alt="image"
@@ -2945,7 +2891,6 @@ const items = [
                 </span>
                 <h3>
                   <a
-                    href="javascript:void(0)"
                     class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
                   >
                     The no-fuss guide to upselling and cross selling
@@ -3133,7 +3078,7 @@ const items = [
         <div
           class="-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11"
         >
-          <a href="https://graygrids.com/">
+          <a>
             <img
               src="~/assets/images/brands/graygrids.svg"
               alt="graygrids"
@@ -3145,7 +3090,7 @@ const items = [
               class="hidden dark:block"
             />
           </a>
-          <a href="https://lineicons.com/">
+          <a>
             <img
               src="~/assets/images/brands/lineicons.svg"
               alt="lineicons"
@@ -3157,7 +3102,7 @@ const items = [
               class="hidden dark:block"
             />
           </a>
-          <a href="https://uideck.com/">
+          <a>
             <img
               src="~/assets/images/brands/uideck.svg"
               alt="uideck"
@@ -3169,7 +3114,7 @@ const items = [
               class="hidden dark:block"
             />
           </a>
-          <a href="https://ayroui.com/">
+          <a>
             <img
               src="~/assets/images/brands/ayroui.svg"
               alt="ayroui"
@@ -3181,7 +3126,7 @@ const items = [
               class="hidden dark:block"
             />
           </a>
-          <a href="https://tailgrids.com/">
+          <a>
             <img
               src="~/assets/images/brands/tailgrids.svg"
               alt="tailgrids"

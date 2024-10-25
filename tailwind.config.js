@@ -56,8 +56,19 @@ module.exports = {
         },
       },
       colors: {
-        primary: '#1D4ED8', // Example primary color
-        secondary: '#3B82F6', // Example secondary color
+        ultramarine: {
+          50: '#EFFDF5',
+          100: '#D9FBE8',
+          200: '#B3F5D1',
+          300: '#75EDAE',
+          400: '#00DC82',
+          500: '#4166f5',
+          600: '#00A155',
+          700: '#007F45',
+          800: '#016538',
+          900: '#0A5331',
+          950: '#052e16'
+        }
       },
     },
   },
