@@ -1,5 +1,8 @@
 <template>
-  <section class="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
+  <section
+    id="features"
+    class="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]"
+  >
     <div class="container">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
