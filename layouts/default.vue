@@ -8,15 +8,12 @@ const toggleDark = useToggle(isDark);
   <main class=" ">
     <!-- ====== Navbar Section Start -->
     <div
-      class="ud-header fixed bg-primary left-0 top-0 z-40 flex w-full items-center"
+      class="ud-header fixed text-white bg-primary dark:bg-white dark:text-primary left-0 top-0 z-40 flex w-full items-center"
     >
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
           <div class="w-60 max-w-full px-4">
-            <nuxt-link
-              to="/"
-              class="text-2xl font-bold block w-full py-5 text-white"
-            >
+            <nuxt-link to="/" class="text-2xl font-bold block w-full py-5">
               Bagche.App
             </nuxt-link>
           </div>
@@ -44,7 +41,7 @@ const toggleDark = useToggle(isDark);
                   <li class="group relative">
                     <nuxt-link
                       to="#home"
-                      class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
+                      class="ud-menu-scroll mx-8 flex py-2 font-medium group-hover:text-primary dark: lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg: lg:group-hover: lg:group-hover:opacity-70"
                     >
                       Home
                     </nuxt-link>
@@ -52,7 +49,7 @@ const toggleDark = useToggle(isDark);
                   <li class="group relative">
                     <nuxt-link
                       to="#about"
-                      class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
+                      class="ud-menu-scroll mx-8 flex py-2 font-medium group-hover:text-primary dark: lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg: lg:group-hover: lg:group-hover:opacity-70 xl:ml-10"
                     >
                       About
                     </nuxt-link>
@@ -60,7 +57,7 @@ const toggleDark = useToggle(isDark);
                   <li class="group relative">
                     <nuxt-link
                       to="#pricing"
-                      class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
+                      class="ud-menu-scroll mx-8 flex py-2 font-medium group-hover:text-primary dark: lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg: lg:group-hover: lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Pricing
                     </nuxt-link>
@@ -68,7 +65,7 @@ const toggleDark = useToggle(isDark);
                   <li class="group relative">
                     <nuxt-link
                       to="#faq"
-                      class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
+                      class="ud-menu-scroll mx-8 flex py-2 font-medium group-hover:text-primary dark: lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg: lg:group-hover: lg:group-hover:opacity-70 xl:ml-10"
                     >
                       FAQ
                     </nuxt-link>
@@ -76,7 +73,7 @@ const toggleDark = useToggle(isDark);
                   <li class="group relative">
                     <nuxt-link
                       to="#blog"
-                      class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
+                      class="ud-menu-scroll mx-8 flex py-2 font-medium group-hover:text-primary dark: lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg: lg:group-hover: lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Blog
                     </nuxt-link>
@@ -84,7 +81,7 @@ const toggleDark = useToggle(isDark);
                   <li class="group relative">
                     <nuxt-link
                       to="#contact"
-                      class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
+                      class="ud-menu-scroll mx-8 flex py-2 font-medium group-hover:text-primary dark: lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg: lg:group-hover: lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Contact
                     </nuxt-link>
@@ -102,7 +99,7 @@ const toggleDark = useToggle(isDark);
                 aria-label="themeSwitcher"
                 name="themeSwitcher"
               >
-                <span class="block text-white dark:hidden">
+                <span class="block dark:hidden">
                   <svg
                     class="fill-current"
                     width="24"
@@ -116,7 +113,7 @@ const toggleDark = useToggle(isDark);
                     />
                   </svg>
                 </span>
-                <span class="hidden text-white dark:block">
+                <span class="hidden dark:block">
                   <svg
                     class="fill-current"
                     width="24"
@@ -164,7 +161,7 @@ const toggleDark = useToggle(isDark);
               </label>
               <div class="hidden sm:flex mr-20">
                 <a
-                  class="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
+                  class="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 font-medium duration-300 ease-in-out hover:bg-opacity-100 hover:"
                 >
                   Sign In/Up
                 </a>

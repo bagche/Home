@@ -1,7 +1,7 @@
 <template>
   <section
     id="home"
-    class="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
+    class="relative overflow-hidden text-white bg-primary dark:bg-white dark:text-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
   >
     <div class="-mx-4 flex flex-wrap items-center">
       <div class="w-full px-4">
@@ -11,12 +11,12 @@
           data-wow-delay=".2s"
         >
           <h1
-            class="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
+            class="mb-6 text-3xl font-bold leading-snug sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
           >
             Build Your Website, Connect Seamlessly
           </h1>
           <p
-            class="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]"
+            class="mx-auto mb-9 max-w-[600px] text-base font-medium sm:text-lg sm:leading-[1.44]"
           >
             Design professional websites with real-time chat, AI-powered tools,
             and advanced communication – all in one seamless platform.
@@ -25,7 +25,7 @@
           <!-- Example Form Component -->
           <CreatorForm />
 
-          <p class="mb-4 text-center text-base font-medium text-white">
+          <p class="mb-4 text-center text-base font-medium">
             Powered by trusted technologies
           </p>
 
@@ -37,7 +37,7 @@
             <NuxtLink
               href="https://github.com"
               target="_blank"
-              class="text-white/60 transition hover:text-white"
+              class="/60 transition hover:"
             >
               <Icon name="mdi:github" size="2xl" />
             </NuxtLink>
@@ -45,7 +45,7 @@
             <NuxtLink
               href="https://twitter.com"
               target="_blank"
-              class="text-white/60 transition hover:text-white"
+              class="/60 transition hover:"
             >
               <Icon name="mdi:twitter" size="2xl" />
             </NuxtLink>
@@ -53,7 +53,7 @@
             <NuxtLink
               href="https://linkedin.com"
               target="_blank"
-              class="text-white/60 transition hover:text-white"
+              class="/60 transition hover:"
             >
               <Icon name="mdi:linkedin" size="2xl" />
             </NuxtLink>
@@ -61,7 +61,7 @@
             <NuxtLink
               href="https://www.npmjs.com"
               target="_blank"
-              class="text-white/60 transition hover:text-white"
+              class="/60 transition hover:"
             >
               <Icon name="mdi:npm" size="2xl" />
             </NuxtLink>
@@ -69,12 +69,14 @@
             <NuxtLink
               href="https://nuxt.com"
               target="_blank"
-              class="text-white/60 transition hover:text-white"
+              class="/60 transition hover:"
             >
               <Icon name="mdi:vuejs" size="2xl" />
             </NuxtLink>
           </div>
-          <div class="w-full px-4">
+          <div
+            class="w-full mx-4 border border-primary rounded-xl transition-all border-[.2rem]"
+          >
             <div
               class="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
               data-wow-delay=".25s"
