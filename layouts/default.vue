@@ -48,7 +48,7 @@ const toggleDark = useToggle(isDark);
                   </li>
                   <li class="group relative">
                     <nuxt-link
-                      to="#feature"
+                      to="#features"
                       class="ud-menu-scroll mx-8 flex py-2 font-medium group-hover:text-primary dark: lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg: lg:group-hover: lg:group-hover:opacity-70"
                     >
                       Features
