@@ -4,7 +4,7 @@
       @click="toggle"
       class="flex cursor-pointer items-center justify-between rounded-lg bg-gray-100 p-4 dark:bg-dark-2"
     >
-      <h3 class="text-lg font-semibold text-dark dark:text-white">
+      <h3 class="text-lg font-semibold text-dark dark:text-ultramarine-500">
         {{ question }}
       </h3>
       <Icon :name="isOpen ? 'mdi:chevron-up' : 'mdi:chevron-down'" size="lg" />

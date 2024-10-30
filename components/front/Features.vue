@@ -3,15 +3,15 @@
     id="features"
     class="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]"
   >
-    <div class="container">
+    <UContainer>
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
           <div class="mx-auto mb-12 max-w-[485px] text-center lg:mb-[70px]">
-            <span class="mb-2 block text-lg font-semibold text-primary">
+            <span class="mb-2 block text-lg font-semibold text-ultramarine-500">
               Features
             </span>
             <h2
-              class="mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]"
+              class="mb-3 text-3xl font-bold text-dark dark:text-ultramarine-500 sm:text-4xl md:text-[40px] md:leading-[1.2]"
             >
               Empower Your Online Presence
             </h2>
@@ -82,7 +82,7 @@
           delay=".45s"
         />
       </div>
-    </div>
+    </UContainer>
   </section>
 </template>
 

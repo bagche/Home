@@ -3,7 +3,7 @@
     class="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
     data-wow-delay=".15s"
   >
-    <div class="container">
+    <UContainer>
       <div class="-mx-4 flex flex-wrap">
         <!-- Logo and Description -->
         <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
@@ -90,7 +90,7 @@
               <li>
                 <a
                   href="/"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Home
                 </a>
@@ -98,7 +98,7 @@
               <li>
                 <a
                   href="/about"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   About Us
                 </a>
@@ -106,7 +106,7 @@
               <li>
                 <a
                   href="/features"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Features
                 </a>
@@ -114,7 +114,7 @@
               <li>
                 <a
                   href="/contact"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Contact
                 </a>
@@ -130,7 +130,7 @@
               <li>
                 <a
                   href="/blog"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Blog
                 </a>
@@ -138,7 +138,7 @@
               <li>
                 <a
                   href="/help-center"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Help Center
                 </a>
@@ -146,7 +146,7 @@
               <li>
                 <a
                   href="/privacy-policy"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Privacy Policy
                 </a>
@@ -154,7 +154,7 @@
               <li>
                 <a
                   href="/terms-of-service"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Terms of Service
                 </a>
@@ -170,7 +170,7 @@
               <li>
                 <a
                   href="/no-code-builder"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   No-Code Builder
                 </a>
@@ -178,7 +178,7 @@
               <li>
                 <a
                   href="/ai-tools"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   AI-Powered Tools
                 </a>
@@ -186,7 +186,7 @@
               <li>
                 <a
                   href="/real-time-communication"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Real-Time Communication
                 </a>
@@ -194,7 +194,7 @@
               <li>
                 <a
                   href="/integrations"
-                  class="mb-3 inline-block text-base text-gray-400 hover:text-primary"
+                  class="mb-3 inline-block text-base text-gray-400 hover:text-ultramarine-500"
                 >
                   Integrations
                 </a>
@@ -214,11 +214,11 @@
                 <input
                   type="email"
                   placeholder="Your email address"
-                  class="w-full rounded-l-md border border-gray-600 bg-transparent py-3 px-4 text-base text-white placeholder-gray-400 focus:border-primary focus:outline-none"
+                  class="w-full rounded-l-md border border-gray-600 bg-transparent py-3 px-4 text-base text-white placeholder-gray-400 focus:border-ultramarine-500 focus:outline-none"
                 />
                 <button
                   type="submit"
-                  class="rounded-r-md bg-primary py-3 px-4 text-base font-medium text-white hover:bg-opacity-90"
+                  class="rounded-r-md bg-ultramarine-500 py-3 px-4 text-base font-medium text-white hover:bg-opacity-90"
                 >
                   Subscribe
                 </button>
@@ -227,11 +227,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </UContainer>
 
     <!-- Footer Bottom -->
     <div class="mt-12 border-t border-gray-700 py-8 lg:mt-[60px]">
-      <div class="container">
+      <UContainer>
         <div class="-mx-4 flex flex-wrap items-center justify-between">
           <div class="w-full px-4 md:w-1/2">
             <div class="my-1">
@@ -268,7 +268,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </UContainer>
     </div>
 
     <div>

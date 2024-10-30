@@ -46,19 +46,19 @@
             <div class="ud-contact-content-wrapper">
               <div class="ud-contact-title mb-12 lg:mb-[150px]">
                 <span
-                  class="mb-6 block text-base font-medium text-dark dark:text-white"
+                  class="mb-6 block text-base font-medium text-dark dark:text-ultramarine-500"
                 >
                   CONTACT US
                 </span>
                 <h2
-                  class="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white"
+                  class="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-ultramarine-500"
                 >
                   Let's talk about your problem.
                 </h2>
               </div>
               <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
                 <div class="mb-8 flex w-[330px] max-w-full">
-                  <div class="mr-6 text-[32px] text-primary">
+                  <div class="mr-6 text-[32px] text-ultramarine-500">
                     <svg
                       width="29"
                       height="35"
@@ -75,7 +75,7 @@
                   </div>
                   <div>
                     <h5
-                      class="mb-[18px] text-lg font-semibold text-dark dark:text-white"
+                      class="mb-[18px] text-lg font-semibold text-dark dark:text-ultramarine-500"
                     >
                       Our Location
                     </h5>
@@ -85,7 +85,7 @@
                   </div>
                 </div>
                 <div class="mb-8 flex w-[330px] max-w-full">
-                  <div class="mr-6 text-[32px] text-primary">
+                  <div class="mr-6 text-[32px] text-ultramarine-500">
                     <svg
                       width="34"
                       height="25"
@@ -99,7 +99,7 @@
                   </div>
                   <div>
                     <h5
-                      class="mb-[18px] text-lg font-semibold text-dark dark:text-white"
+                      class="mb-[18px] text-lg font-semibold text-dark dark:text-ultramarine-500"
                     >
                       How Can We Help?
                     </h5>
@@ -121,7 +121,7 @@
               "
             >
               <h3
-                class="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]"
+                class="mb-8 text-2xl font-semibold text-dark dark:text-ultramarine-500 md:text-[28px] md:leading-[1.42]"
               >
                 Send us a Message
               </h3>
@@ -136,7 +136,7 @@
                     type="text"
                     name="fullName"
                     placeholder="Adam Gelius"
-                    class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
+                    class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-ultramarine-500 focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   />
                 </div>
                 <div class="mb-[22px]">
@@ -149,7 +149,7 @@
                     type="email"
                     name="email"
                     placeholder="example@yourmail.com"
-                    class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
+                    class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-ultramarine-500 focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   />
                 </div>
                 <div class="mb-[22px]">
@@ -162,7 +162,7 @@
                     type="text"
                     name="phone"
                     placeholder="+885 1254 5211 552"
-                    class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
+                    class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-ultramarine-500 focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   />
                 </div>
                 <div class="mb-[30px]">
@@ -175,13 +175,13 @@
                     name="message"
                     rows="1"
                     placeholder="type your message here"
-                    class="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
+                    class="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-ultramarine-500 focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   ></textarea>
                 </div>
                 <div class="mb-0">
                   <button
                     type="submit"
-                    class="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-dark"
+                    class="inline-flex items-center justify-center rounded-md bg-ultramarine-500 px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-dark"
                   >
                     Send
                   </button>

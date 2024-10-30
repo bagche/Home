@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
 
-  modules: ["@nuxt/ui", "@vueuse/nuxt"],
+  modules: ["@nuxt/ui"],
   vite: {
     css: {
       preprocessorOptions: {
@@ -23,5 +23,8 @@ export default defineNuxtConfig({
     preset: "cloudflare-pages",
     compressPublicAssets: true,
     minify: true,
+  },
+  colorMode: {
+    preference: "light",
   },
 });

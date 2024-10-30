@@ -20,7 +20,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 <template>
   <UForm :schema="schema" :state="state" class="mb-10 mt-10" @submit="onSubmit">
     <label
-      class="mx-auto mt-8 relative min-w-sm max-w-2xl flex flex-col md:flex-row items-center justify-center py-2 px-2 rounded-2xl gap-2 border-2 border-primary dark:border-white"
+      class="mx-auto mt-8 relative min-w-sm max-w-2xl flex flex-col md:flex-row items-center justify-center py-2 px-2 rounded-2xl gap-2 border-2 border-ultramarine-500 dark:border-white"
       for="search-bar"
     >
       <UInput
@@ -29,7 +29,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
           wrapper: 'p-10',
         }"
         v-model="state.name"
-        class="border-primary w-full mr-3 py-1 px-2 leading-tight focus:outline-none"
+        class="border-ultramarine-500 w-full mr-3 py-1 px-2 leading-tight focus:outline-none"
         type="text"
         placeholder="Your Platform name ..."
         aria-label="Site title"
@@ -40,7 +40,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
       <UButton
         type="submit"
         color="black"
-        class="px-6 text-center text-md py-3 rounded-xl transition-all bg-primary dark:bg-none"
+        class="px-6 text-center text-md py-3 rounded-xl transition-all bg-ultramarine-500 dark:bg-none"
       >
         <span class="text-center mx-2"> Build </span>
       </UButton>

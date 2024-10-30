@@ -7,11 +7,11 @@
       <div class="-mx-4 flex flex-wrap justify-center">
         <div class="w-full px-4">
           <div class="mx-auto mb-[60px] max-w-[485px] text-center">
-            <span class="mb-2 block text-lg font-semibold text-primary">
+            <span class="mb-2 block text-lg font-semibold text-ultramarine-500">
               Our Blogs
             </span>
             <h2
-              class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]"
+              class="mb-4 text-3xl font-bold text-dark dark:text-ultramarine-500 sm:text-4xl md:text-[40px] md:leading-[1.2]"
             >
               Our Recent News
             </h2>
@@ -36,13 +36,13 @@
             </div>
             <div>
               <span
-                class="mb-6 inline-block rounded-[5px] bg-primary px-4 py-0.5 text-center text-xs font-medium leading-loose text-white"
+                class="mb-6 inline-block rounded-[5px] bg-ultramarine-500 px-4 py-0.5 text-center text-xs font-medium leading-loose text-white"
               >
                 Dec 22, 2023
               </span>
               <h3>
                 <a
-                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-ultramarine-500 dark:text-ultramarine-500 dark:hover:text-ultramarine-500 sm:text-2xl lg:text-xl xl:text-2xl"
                 >
                   Meet AutoManage, the best AI management tools
                 </a>
@@ -69,13 +69,13 @@
             </div>
             <div>
               <span
-                class="mb-6 inline-block rounded-[5px] bg-primary px-4 py-0.5 text-center text-xs font-medium leading-loose text-white"
+                class="mb-6 inline-block rounded-[5px] bg-ultramarine-500 px-4 py-0.5 text-center text-xs font-medium leading-loose text-white"
               >
                 Mar 15, 2023
               </span>
               <h3>
                 <a
-                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-ultramarine-500 dark:text-ultramarine-500 dark:hover:text-ultramarine-500 sm:text-2xl lg:text-xl xl:text-2xl"
                 >
                   How to earn more money as a wellness coach
                 </a>
@@ -102,13 +102,13 @@
             </div>
             <div>
               <span
-                class="mb-6 inline-block rounded-[5px] bg-primary px-4 py-0.5 text-center text-xs font-medium leading-loose text-white"
+                class="mb-6 inline-block rounded-[5px] bg-ultramarine-500 px-4 py-0.5 text-center text-xs font-medium leading-loose text-white"
               >
                 Jan 05, 2023
               </span>
               <h3>
                 <a
-                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-ultramarine-500 dark:text-ultramarine-500 dark:hover:text-ultramarine-500 sm:text-2xl lg:text-xl xl:text-2xl"
                 >
                   The no-fuss guide to upselling and cross selling
                 </a>

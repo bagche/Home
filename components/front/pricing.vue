@@ -1,17 +1,17 @@
 <template>
   <section
     id="pricing"
-    class="relative z-20 overflow-hidden bg-primary pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
+    class="relative z-20 overflow-hidden bg-ultramarine-500 pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
   >
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
           <div class="mx-auto mb-[60px] max-w-[510px] text-center">
-            <span class="mb-2 block text-lg font-semibold text-primary">
+            <span class="mb-2 block text-lg font-semibold text-ultramarine-500">
               Pricing Plans
             </span>
             <h2
-              class="mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]"
+              class="mb-3 text-3xl font-bold text-dark dark:text-ultramarine-500 sm:text-4xl md:text-[40px] md:leading-[1.2]"
             >
               Choose a Plan that Suits Your Needs
             </h2>
@@ -30,12 +30,12 @@
             class="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
           >
             <span
-              class="mb-5 block text-xl font-medium text-dark dark:text-white"
+              class="mb-5 block text-xl font-medium text-dark dark:text-ultramarine-500"
             >
               Free
             </span>
             <h2
-              class="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]"
+              class="mb-11 text-4xl font-semibold text-dark dark:text-ultramarine-500 xl:text-[42px] xl:leading-[1.21]"
             >
               <span class="-ml-1 -tracking-[2px]">$0</span>
               <span
@@ -45,7 +45,9 @@
               </span>
             </h2>
             <div class="mb-[50px]">
-              <h5 class="mb-5 text-lg font-medium text-dark dark:text-white">
+              <h5
+                class="mb-5 text-lg font-medium text-dark dark:text-ultramarine-500"
+              >
                 What's Included
               </h5>
               <ul class="flex flex-col gap-[14px]">
@@ -65,7 +67,7 @@
             </div>
             <a
               href="#"
-              class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
+              class="inline-block rounded-md bg-ultramarine-500 px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
             >
               Get Started
             </a>
@@ -77,17 +79,17 @@
             class="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
           >
             <p
-              class="absolute right-[-50px] top-[60px] inline-block -rotate-90 rounded-bl-md rounded-tl-md bg-primary px-5 py-2 text-base font-medium text-white"
+              class="absolute right-[-50px] top-[60px] inline-block -rotate-90 rounded-bl-md rounded-tl-md bg-ultramarine-500 px-5 py-2 text-base font-medium text-white"
             >
               Popular
             </p>
             <span
-              class="mb-5 block text-xl font-medium text-dark dark:text-white"
+              class="mb-5 block text-xl font-medium text-dark dark:text-ultramarine-500"
             >
               Pro
             </span>
             <h2
-              class="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]"
+              class="mb-11 text-4xl font-semibold text-dark dark:text-ultramarine-500 xl:text-[42px] xl:leading-[1.21]"
             >
               <span class="text-xl font-medium">$</span>
               <span class="-ml-1 -tracking-[2px]">49</span>
@@ -98,7 +100,9 @@
               </span>
             </h2>
             <div class="mb-[50px]">
-              <h5 class="mb-5 text-lg font-medium text-dark dark:text-white">
+              <h5
+                class="mb-5 text-lg font-medium text-dark dark:text-ultramarine-500"
+              >
                 What's Included
               </h5>
               <ul class="flex flex-col gap-[14px]">
@@ -121,7 +125,7 @@
             </div>
             <a
               href="#"
-              class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
+              class="inline-block rounded-md bg-ultramarine-500 px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
             >
               Upgrade Now
             </a>
@@ -133,12 +137,12 @@
             class="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14"
           >
             <span
-              class="mb-5 block text-xl font-medium text-dark dark:text-white"
+              class="mb-5 block text-xl font-medium text-dark dark:text-ultramarine-500"
             >
               Business
             </span>
             <h2
-              class="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]"
+              class="mb-11 text-4xl font-semibold text-dark dark:text-ultramarine-500 xl:text-[42px] xl:leading-[1.21]"
             >
               <span class="text-xl font-medium">$</span>
               <span class="-ml-1 -tracking-[2px]">99</span>
@@ -149,7 +153,9 @@
               </span>
             </h2>
             <div class="mb-[50px]">
-              <h5 class="mb-5 text-lg font-medium text-dark dark:text-white">
+              <h5
+                class="mb-5 text-lg font-medium text-dark dark:text-ultramarine-500"
+              >
                 What's Included
               </h5>
               <ul class="flex flex-col gap-[14px]">
@@ -172,7 +178,7 @@
             </div>
             <a
               href="#"
-              class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
+              class="inline-block rounded-md bg-ultramarine-500 px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
             >
               Get Business Plan
             </a>
