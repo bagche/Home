@@ -2,6 +2,16 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
+  runtimeConfig: {
+    ownersPub: "",
+    inboxPriv: "",
+    openaiToken: "",
+    aiToken: "",
+    clAccountId: "",
+    githubClientId: "",
+    githubToken: "",
+    githubRepo: "",
+  },
 
   modules: ["@nuxt/ui"],
   vite: {
