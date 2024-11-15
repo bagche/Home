@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { defineEventHandler, readBody, createError } from "h3";
 
 const schema = z.object({
   title: z.string().min(1, "Title is required"),
@@ -18,15 +19,14 @@ export default defineEventHandler(async (event) => {
     });
   }
 
-  const { title, description } = validation?.data;
-  const { githubRepo, githubToken } = useRuntimeConfig(event);
+  const { title, description } = validation.data;
+  const { githubRepo, githubToken, cloudflareAccountId, cloudflareApiToken } =
+    useRuntimeConfig(event);
 
-  // Define GitHub API endpoint using the template repo from context
-  const baseAPI = `https://api.github.com/repos/${githubRepo}/generate`;
+  // Step 1: Create GitHub Repository from Template
+  const githubAPI = `https://api.github.com/repos/${githubRepo}/generate`;
 
-  console.log(baseAPI, githubToken);
-  // API request to create a new repository from the template
-  const response = await $fetch(baseAPI, {
+  const githubResponse = await $fetch(githubAPI, {
     method: "POST",
     headers: {
       Accept: "application/vnd.github+json",
@@ -42,17 +42,54 @@ export default defineEventHandler(async (event) => {
   });
 
   // Handle errors from the GitHub API response
-  if (!response || response.error) {
+  if (!githubResponse || githubResponse.error) {
     throw createError({
-      statusCode: response?.status || 500,
+      statusCode: githubResponse?.status || 500,
       message:
-        response?.error?.message || "Failed to create repository from template",
+        githubResponse?.error?.message ||
+        "Failed to create repository from template",
     });
   }
 
-  // Return the created repository details
+  const repoUrl = githubResponse.html_url;
+  console.log("Repository created successfully:", repoUrl);
+
+  // Step 2: Create Cloudflare Pages Project
+  const projectName = title.replace(/\s+/g, "-").toLowerCase();
+  const cloudflareAPI = `https://api.cloudflare.com/client/v4/accounts/${cloudflareAccountId}/pages/projects`;
+
+  const pagesResponse = await $fetch(cloudflareAPI, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${cloudflareApiToken}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      name: projectName,
+      source: {
+        type: "github",
+        config: {
+          owner: githubRepo.split("/")[0], // GitHub owner
+          repo_name: title, // GitHub repository name
+          production_branch: "main",
+        },
+      },
+    }),
+  });
+
+  // Handle errors from the Cloudflare API response
+  if (!pagesResponse || pagesResponse.errors) {
+    throw createError({
+      statusCode: 500,
+      message: "Failed to create Cloudflare Page",
+      data: pagesResponse?.errors || "Unknown error",
+    });
+  }
+
+  // Return the final success response with GitHub and Cloudflare URLs
   return {
-    message: "Repository created successfully",
-    repoUrl: response.html_url,
+    message: "Repository and Cloudflare Page created successfully",
+    repoUrl,
+    pageUrl: `https://${projectName}.pages.dev`,
   };
 });

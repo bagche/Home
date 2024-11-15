@@ -5,6 +5,7 @@ useHead({
   meta: [{ name: "description", content: "This is Bagche:)" }],
 });
 </script>
+
 <template>
   <!-- <Html :class="isDark ? 'dark' : 'light'">
     <Body class="">
